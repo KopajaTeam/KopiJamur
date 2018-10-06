@@ -34,21 +34,21 @@
                 </div>
                 <ul class="nav">
 
-                    <li class="nav-item ">
+                    <li class="nav-item <?php if($this->uri->segment(1)=='Dashboard'){echo 'active';}?> ">
                         <a class="nav-link" href="<?php echo base_url(); ?>">
                             <i class="material-icons">dashboard</i>
                             <p> Dashboard </p>
                         </a>
                     </li>
 
-                    <li class="nav-item ">
+                    <li class="nav-item <?php if($this->uri->segment(1)=='Forum'){echo 'active';}?> ">
                         <a class="nav-link" href="<?php echo base_url("Forum"); ?>">
                             <i class="material-icons">forum</i>
                             <p>Forum</p>
                         </a>
                     </li>
 
-                    <li class="nav-item ">
+                    <li class="nav-item <?php if($this->uri->segment(1)=='Gallery'){echo 'active';}?> ">
                         <a class="nav-link" href="<?php echo base_url("Gallery"); ?>">
                             <i class="material-icons">photo_library</i>
                             <p>Gallery</p>
@@ -63,27 +63,32 @@
                             </p>
                         </a>
 
-                        <div class="collapse ml-4 " id="mapsExamples">
+                        <div class="<?php if($this->uri->segment(1)=='User' or $this->uri->segment(1)
+                                                                    =='Admin' or $this->uri->segment(1)
+                                                                    =='Produk' or $this->uri->segment(1)
+                                                                    =='Testimonial'){echo 'show';}
+                                                                    else{echo "collapse";}?>  
+                                                                    ml-4 " id="mapsExamples">
                             <ul class="nav">
-                                <li class="nav-item ">
+                                <li class="nav-item <?php if($this->uri->segment(1)=='User'){echo 'active';}?>">
                                     <a class="nav-link" href="<?php echo base_url("User"); ?>">
                                       <i class="material-icons"> account_circle </i>
                                       <span class="sidebar-normal"> User </span>
                                     </a>
                                 </li>
-                                <li class="nav-item ">
+                                <li class="nav-item <?php if($this->uri->segment(1)=='Admin'){echo 'active';}?> ">
                                     <a class="nav-link" href="<?php echo base_url("Admin"); ?>">
                                       <i class="material-icons"> account_circle </i>
                                       <span class="sidebar-normal"> Admin </span>
                                     </a>
                                 </li>
-                                <li class="nav-item ">
+                                <li class="nav-item <?php if($this->uri->segment(1)=='Produk'){echo 'active';}?> ">
                                     <a class="nav-link" href="<?php echo base_url("Produk"); ?>">
                                       <i class="material-icons"> unarchive </i>
                                       <span class="sidebar-normal"> Produk </span>
                                     </a>
                                 </li>
-                                <li class="nav-item ">
+                                <li class="nav-item <?php if($this->uri->segment(1)=='Testimonial'){echo 'active';}?> ">
                                     <a class="nav-link" href="<?php echo base_url("Testimonial"); ?>">
                                       <i class="material-icons"> verified_user </i>
                                       <span class="sidebar-normal"> Testimonial </span>
@@ -102,13 +107,13 @@
 
                         <div class="collapse ml-4 " id="mapsExample">
                             <ul class="nav">
-                                <li class="nav-item ">
+                                <li class="nav-item <?php if($this->uri->segment(1)=='Profile'){echo 'active';}?> ">
                                     <a class="nav-link" href="<?php echo base_url("Profile"); ?>">
                                       <i class="material-icons"> account_circle </i>
                                       <span class="sidebar-normal"> Profile </span>
                                     </a>
                                 </li>
-                                <li class="nav-item ">
+                                <li class="nav-item <?php if($this->uri->segment(1)=='Log-Out'){echo 'active';}?> ">
                                     <a class="nav-link" href="maps/fullscreen.html">
                                       <i class="material-icons"> undo </i>
                                       <span class="sidebar-normal"> Log-Out </span>
@@ -132,7 +137,7 @@
                             <i class="material-icons design_bullet-list-67 visible-on-sidebar-mini">view_list</i>
                         </button>
                       </div>
-                            <a class="navbar-brand" href="#pablo">Dashboard</a>
+                            <!-- <a class="navbar-brand" href="#pablo"></a> -->
                         </div>
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
