@@ -9,7 +9,7 @@
 							<li><a href="http://vimeo.com/" target="_blank"></a></li>
 							<li><a href="http://dribbble.com/" target="_blank"></a></li>
 						</ul>
-					</div> <!-- .social-links -->
+					</div>
 					<div id="footer-navigation">
 						<ul>
 							<li><a href="#">Home</a> </li>
@@ -20,6 +20,6 @@
 							<li><a href="#">News</a> </li>
 							<li><a href="#">Shop</a> </li>
 						</ul>
-					</div> <!-- #footer-navigation -->
-				</div><!-- .container -->
-			</div> <!-- #colophon-top -->
+					</div>
+				</div>
+			</div>

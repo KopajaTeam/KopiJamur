@@ -21,13 +21,13 @@
 						<a href="#" class="search-icon"><i class="fa fa-search"></i></a>
 						<div class="search-box-wrap">
 							<div class="searchform" role="search">
-								<!-- <form class="search-form" method="get" action="http://anilbasnet.com/demo/biz-lina/."> -->
+								<form>
 									<input type="text" name="s" id="s" placeholder="Search..." value="" class="search-field">
 									<input type="submit" class="search-submit" value="Search">
 								</form>
-							</div><!-- .searchform -->
-						</div><!-- .search-box-wrap -->
-					</div> <!-- .header-search -->
+							</div>
+						</div>
+					</div>
 					<div class="header-social-wrapper">
 						<div class="social-links">
 							<ul>
@@ -36,7 +36,6 @@
 								<li><a href="http://twitter.com/" target="_blank"></a></li>
 								<li><a href="http://linkedin.com/" target="_blank"></a></li>
 								<li><a href="http://instagram.com/" target="_blank"></a></li>
-								<a href="#" style="color: white;"><i class="fa fa-shopping-cart"></i></a>
 							</ul>
 						</div> <!-- .social-links -->
 					</div><!-- .header-social-wrapper -->
