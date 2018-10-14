@@ -37,4 +37,7 @@ class Welcome extends CI_Controller {
 		function kontak(){
 			$this->load->view('user/sosmed');
 		}
+		function login(){
+			$this->load->view('user/login/login');
+		}
 }

@@ -7,6 +7,7 @@
 					</div><!-- .site-branding -->
 					<a href="#" class="custom-button apply-now" style="background-color: #975425" >LOGIN</a>
 					<div id="quick-contact">
+					<!-- <a href="#" class="custom-button apply-now" style="background-color: #975425" ><i class="fa fa-shopping-cart"></i></a> -->
 						<ul>
 							<li class="quick-email">
 								<div class="header-box-icon">
