@@ -9,6 +9,7 @@
 		
 				<li><a href="<?php echo base_url("index.php/welcome/produk") ?>">Product</a> </li>
 
+<<<<<<< HEAD
 				<li><a href="<?php echo base_url("index.php/welcome/testi") ?>">Testimonial</a></li>
 				<li class="menu-item"><a href="#" >Contact</a>
 				<li class="menu-item"><a href="<?php echo base_url("index.php/welcome/forum") ?>">Forum</a></li>
@@ -45,3 +46,37 @@
 		
 	</div><!-- .container -->
 </div> <!-- #main-navigation -->
+=======
+							<li><a href="<?php echo base_url("index.php/welcome/testi") ?>">Testimonial</a></li>
+							<li class="menu-item"><a href="#" >Contact</a>
+							<li class="menu-item"><a href="<?php echo base_url("index.php/welcome/forum") ?>">Forum</a></li>
+								
+							</li>
+							<li><a href="<?php echo base_url("index.php/welcome/gambar")?>">Galery</a></li>
+						</ul>
+					</nav> <!-- .site-navigation -->
+					<div id="header-search">
+						<a href="#" class="search-icon"><i class="fa fa-search"></i></a>
+						<div class="search-box-wrap">
+							<div class="searchform" role="search">
+								<form>
+									<input type="text" name="s" id="s" placeholder="Search..." value="" class="search-field">
+									<input type="submit" class="search-submit" value="Search">
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="header-social-wrapper">
+						<div class="social-links">
+							<ul>
+								<li><a href="http://facebook.com" ></a></li>
+								<li><a href="http://youtube.com/" target="_blank"></a></li>
+								<li><a href="http://twitter.com/" target="_blank"></a></li>
+								<li><a href="http://linkedin.com/" target="_blank"></a></li>
+								<li><a href="http://instagram.com/" target="_blank"></a></li>
+							</ul>
+						</div> <!-- .social-links -->
+					</div><!-- .header-social-wrapper -->
+				</div><!-- .container -->
+			</div> <!-- #main-navigation -->
+>>>>>>> 6dd6f745e0504601b93cb039b4a21d1d6d3f8463
