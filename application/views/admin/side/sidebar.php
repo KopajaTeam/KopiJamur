@@ -105,7 +105,9 @@
                             </p>
                         </a>
 
-                        <div class="collapse ml-4 " id="mapsExample">
+                        <div class="<?php if($this->uri->segment(1)=='Profile' or $this->uri->segment(1)
+                                                                    =='Log-Out'){echo 'show';}
+                                                                    else{echo "collapse";}?> ml-4 " id="mapsExample">
                             <ul class="nav">
                                 <li class="nav-item <?php if($this->uri->segment(1)=='Profile'){echo 'active';}?> ">
                                     <a class="nav-link" href="<?php echo base_url("Profile"); ?>">
@@ -167,7 +169,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="profile">
+                                    <a class="nav-link" href="Profile">
                             <i class="material-icons">person</i>
                                       <p>
                               <span class="d-lg-none d-md-block">Account</span>

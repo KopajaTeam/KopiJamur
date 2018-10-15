@@ -1814,6 +1814,12 @@ nav.navigation.pagination {
     float: right;
     margin-left: 15px;
 }
+#troli {
+    position: relative;
+    float: right;
+    margin-left: 15px;
+    margin-top: 13px;
+}
 
 .search-box-wrap {
 	background: #ffffff;
