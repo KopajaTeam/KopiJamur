@@ -169,7 +169,7 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="profile">
+                                    <a class="nav-link" href="Profile">
                             <i class="material-icons">person</i>
                                       <p>
                               <span class="d-lg-none d-md-block">Account</span>

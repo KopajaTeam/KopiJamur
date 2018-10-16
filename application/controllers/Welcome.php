@@ -40,4 +40,7 @@ class Welcome extends CI_Controller {
 		function login(){
 			$this->load->view('user/login/login');
 		}
+		function single_thread(){
+			$this->load->view('user/single_thread');
+		}
 }
