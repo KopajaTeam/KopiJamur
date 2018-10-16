@@ -15,7 +15,7 @@
 								</div>
 								<div class="header-box-info">
 									<strong>Email</strong>
-									<a href="mailto:mail@example.com" >mail@example.com</a>
+									<a href="mailto:mail@example.com" >kopijamurprestasi@gmail.com</a>
 								</div>
 							</li>
 							<li class="quick-address">
@@ -24,7 +24,7 @@
 								</div>
 								<div class="header-box-info">
 									<strong>Address</strong>
-									Jember, Indonesia
+									Jember, Jl. Mastrip Timur No.102
 								</div>
 							</li>
 							<li class="open-time">
