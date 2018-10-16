@@ -1,6 +1,7 @@
 <?php $this->load->view("admin/side/header") ?>
 <?php $this->load->view("admin/side/sidebar") ?>
 
+
 <div class="content">
   <div class="container-fluid">
     <div class="row">
