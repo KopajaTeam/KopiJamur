@@ -4,16 +4,12 @@
  */
 class Login_adm extends CI_Controller
 {
-<<<<<<< HEAD
 	parent::_construct();
 	$this->load->model('Admin_Dashboard');
-=======
->>>>>>> 4cfd34c759810dce3022fba0416202c1c5a6b5a3
 
   public function index(){
     $this->load->view('admin/login');
   }
-<<<<<<< HEAD
 
   function proses_login(){
   	$email = $this->input->post('email');
@@ -23,7 +19,7 @@ class Login_adm extends CI_Controller
   		'password_admin' => $pass,
   	);
 
-  	$cek = $this->M_alamin->cek_login("admin",$where)->num_rows();
+  	$cek = $this->Admin_Dashboard->cek_login("admin",$where)->num_rows();
   	if ($cek > 0) {
   		$data_session = array(
   			'nama' => $email,
@@ -44,8 +40,6 @@ class Login_adm extends CI_Controller
   	$this->session->session_destroy();
   	redirect(base_url('login'))
   }
-=======
->>>>>>> 4cfd34c759810dce3022fba0416202c1c5a6b5a3
 }
 
  ?>
