@@ -2,9 +2,9 @@
 				<div class="colophon-bottom">
 					<div class="container">
 						<div class="copyright">
-							<p> Copyright © 2018 <a href="http://anilbasnet.com/">Kopaja</a>. All rights reserved. </p> </div>
+							<p> Copyright © 2018 Kopaja. All rights reserved. </p> </div>
 							<div class="site-info">
-								<p>Kopaja <a  rel="" href="anilbasnet.html" target="_blank">Terdepan membangun negeri</a> </p>
+								<p>Kopaja Terdepan membangun negeri</a> </p>
 							</div> <!-- .site-info -->
 						</div> <!-- .container -->
 					</div> <!-- .colophon-bottom -->
