@@ -8,11 +8,11 @@
 				</li>
 				<li class=" <?php if($this->uri->segment(2) == "produk"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/produk") ?>">Product</a> </li>
 				<li class=" <?php if($this->uri->segment(2) == "testi"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/testi") ?>">Testimonial</a></li>
-<<<<<<< HEAD
+
 				<li class=" <?php if($this->uri->segment(2) == "contact"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/contact") ?>" >Contact</a>
-=======
-				<li class=" <?php if($this->uri->segment(2) == "contact"){echo "current-menu-item";}?> menu-item"><a href="#" >Contact</a>
->>>>>>> 0ed773694ad13fd7a456207c3594b2b714f7ad84
+
+				<!-- <li class=" <?php //if($this->uri->segment(2) == "contact"){echo "current-menu-item";}?> menu-item"><a href="#" >Contact</a> -->
+
 				<li class=" <?php if($this->uri->segment(2) == "forum"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/forum") ?>">Forum</a></li>	
 				</li>
 				<li class=" <?php if($this->uri->segment(2) == "gambar"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/gambar")?>">Galery</a></li>
