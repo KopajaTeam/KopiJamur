@@ -12,7 +12,7 @@
 														<h3><a href="#" >Apa Itu Kopi Jamur Prestasi?</a></h3>
 														<p>Kopi Jamur Prestasi Merupakan produk kopi jamur (kopi campuran dengan jamur) menggunakan bahan bahan terbaik.</p>
 														<div class="slider-buttons">
-															<a class="custom-button" href="#">Learn More</a>
+															<a class="custom-button" href="#">Klik Disini</a>
 															<!-- <a class="custom-button custom-secondary-button" href="#">About Us</a> -->
 														</div> <!-- .slider-buttons -->
 													</div> <!-- .container -->
@@ -29,7 +29,7 @@
 														<h3><a href="#" >M. Zainnudin</a></h3>
 														<p>Owner Kopi Jamur Prestasi </p>
 														<div class="slider-buttons">
-															<a class="custom-button" href="#">Klik Untuk Melihat</a>
+															<a class="custom-button" href="<?php echo base_url("welcome/detprofad") ?>">Klik Disini</a>
 															<!-- <a class="custom-button custom-secondary-button" href="#">About Us</a> -->
 														</div> <!-- .slider-buttons -->
 													</div> <!-- .container -->
@@ -46,7 +46,7 @@
 														<h3><a href="#" >Apa Itu Kopi Jamur Prestasi?</a></h3>
 														<p>Kopi Jamur Prestasi Merupakan produk kopi jamur (kopi campuran dengan jamur) menggunakan bahan bahan terbaik.</p>
 														<div class="slider-buttons">
-															<a class="custom-button" href="#">Learn More</a>
+															<a class="custom-button" href="#">Klik Disini</a>
 															<!-- <a class="custom-button custom-secondary-button" href="#">About Us</a> -->
 														</div> <!-- .slider-buttons -->
 													</div> <!-- .container -->
@@ -63,7 +63,7 @@
 														<h3><a href="#" >Apa Itu Kopi Jamur Prestasi?</a></h3>
 														<p>Kopi Jamur Prestasi Merupakan produk kopi jamur (kopi campuran dengan jamur) menggunakan bahan bahan terbaik.</p>
 														<div class="slider-buttons">
-															<a class="custom-button" href="#">Learn More</a>
+															<a class="custom-button" href="#">Klik Disini</a>
 															<!-- <a class="custom-button custom-secondary-button" href="#">About Us</a> -->
 														</div> <!-- .slider-buttons -->
 													</div> <!-- .container -->
