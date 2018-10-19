@@ -17,7 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			
 <?php $this->load->view('user/header') ?>
 <?php $this->load->view('user/mainnav') ?>
-<?php $this->load->view('user/slide') ?>	
+<?php $this->load->view('user/slide') ?>
+	
 <div id="content" class="site-content default-full-width blog-grid-layout">
 <div class="container">
 	<div class="section-title-wrap" style="text-align: center;">
