@@ -17,12 +17,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			
 <?php $this->load->view('user/header') ?>
 <?php $this->load->view('user/mainnav') ?>
-<<<<<<< HEAD
+
 <?php $this->load->view('user/slide') ?>
 	
-=======
 <?php $this->load->view('user/headnav') ?>	
->>>>>>> 9ccdbc5e39aa50f2032c7376417320a426aeedd3
+
 <div id="content" class="site-content default-full-width blog-grid-layout">
 <div class="container">
 	<div class="section-title-wrap" style="text-align: center;">
