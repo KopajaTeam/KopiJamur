@@ -53,4 +53,7 @@ class Welcome extends CI_Controller {
 		function prestasi(){
 			$this->load->view('user/keyfet/prestasi');
 		}
+		function detprofad(){
+			$this->load->view('menu/detailprofilow');
+		}
 }

@@ -18,9 +18,54 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <?php $this->load->view('user/header') ?>
 <?php $this->load->view('user/mainnav') ?>
 <?php $this->load->view('user/headnav') ?>	
-
-
-
+			<div id="content" class="site-content global-layout-no-sidebar">
+				<div class="container">
+					<div class="section-title-wrap" style="text-align: center;">
+					<h2 class="section-title">Profil Ownner</h2><span class="divider"></span>
+					<!-- <p class="section-subtitle"></p> -->
+					</div> <!-- .section-title-wrap -->
+					<div class="inner-wrapper">
+						<div id="primary" class="content-area">
+							<main id="main" class="site-main" >
+								<section class="section portfolio-single-main">
+									<div class="container">
+										<div class="inner-wrapper">
+											<div class="col-grid-6">
+												<img src="<?php echo base_url('assets/images')?>/portfolio/single-portfolio.jpg">
+											</div>
+											<div class="col-grid-6">
+											 <h3>M. Zinudin</h3>
+											 <p>Kopi Jamur Prestasi adalah sautu produk yang sagat...... Berikut profil singkat saya. M zainudin sebaagai owner Kopi Jamur Prestasi.</p>
+											 <div class="portfolio-info">
+												 <ul class="list-check">
+												 	 <li><strong><i>Pendidikan Terakhir Di</i></strong> <span>POLITEKNIK NEGERI JEMBER</span></li>
+													<li><strong><i>Jurusan</i></strong> <span>Pertanian</span></li>
+													<li><strong><i>Prodi </i></strong><span>D3 Manajemen Hasil Pertanian</span></li>
+													<!-- <li><strong><i>Skills </i></strong><span>HTML5 / PHP / CSS3</span></li> -->
+													<li><strong><i>Jabatan Dalam Perusahaan</i></strong><span>Owner Kopi Jamur Prestasi</span> </li>
+												 </ul>
+											 </div>
+											 <br>
+											 <div class="social-links circle brand-color">
+											 <h4> Sosial media</h4>
+												<ul>
+													<li><a href="http://facebook.com/" target="_blank"></a></li>
+													<li><a href="http://instagram.com/" target="_blank"></a></li>
+													<li><a href="http://youtube.com/" target="_blank"></a></li>
+													<li><a href="http://twitter.com/" target="_blank"></a></li>
+													<!-- <li><a href="http://linkedin.com/" target="_blank"></a></li> -->
+												</ul>
+											</div>
+											</div>
+										</div>
+									</div><!-- .container -->
+								</section><!-- .portfolio-single-main -->
+								
+							</main> <!-- #main -->
+						</div> <!-- #primary -->
+					</div> <!-- .inner-wrapper -->
+				</div> <!-- .container -->
+			</div> <!-- #content-->
 <?php $this->load->view('user/wiget') ?>
 <?php $this->load->view('user/sosmed') ?>
 
