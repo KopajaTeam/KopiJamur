@@ -15,36 +15,36 @@
 											<div class="inner-wrapper">
 												<div class="col-grid-4 service-block-item">
 													<div class="service-block-inner box-shadow-block">
-														<a class="service-icon" href="#" ><i class="icon-tools"></i></a>
+														<a class="service-icon" href="<?php echo base_url("welcome/histori") ?>" ><i class="icon-tools"></i></a>
 														<div class="service-block-inner-content">
 															<h3 class="service-item-title"><a href="#" >Sejarah Perusahaan</a></h3>
 															<div class="service-block-item-excerpt">
 																<p>Kopi jamur sebenarnya sudah sejak lama digunakan dalam pengobatan tradisional China. Bubuk ekstrak jamur yang kemudian dicampur dengan kopi instan organik ternyata efektif untuk mencegah diabetes dan mengurangi risiko kanker ....</p>
-																<a href="#" class="more-link">Know More</a>
+																<a href="<?php echo base_url("welcome/histori") ?>" class="more-link">Know More</a>
 															</div><!-- .service-block-item-excerpt -->
 														</div><!-- .service-block-inner-content -->
 													</div> <!-- .service-block-inner -->
 												</div> <!-- .service-block-item -->
 												<div class="col-grid-4 service-block-item">
 													<div class="service-block-inner box-shadow-block">
-														<a class="service-icon" href="#" ><i class="icon-mobile"></i></a>
+														<a class="service-icon" href="<?php echo base_url("welcome/unggulan") ?>" ><i class="icon-mobile"></i></a>
 														<div class="service-block-inner-content">
 															<h3 class="service-item-title"><a href="#" >Produk Unggulan</a>  </h3>
 															<div class="service-block-item-excerpt">
 																<p>Kopi jamur sebenarnya sudah sejak lama digunakan dalam pengobatan tradisional China. Bubuk ekstrak jamur yang kemudian dicampur dengan kopi instan organik ternyata efektif untuk mencegah diabetes dan mengurangi risiko kanker ....</p>
-																<a href="#" class="more-link">Know More</a>
+																<a href="<?php echo base_url("welcome/unggulan") ?>" class="more-link">Know More</a>
 															</div><!-- .service-block-item-excerpt -->
 														</div><!-- .service-block-inner-content -->
 													</div> <!-- .service-block-inner -->
 												</div> <!-- .service-block-item -->
 												<div class="col-grid-4 service-block-item">
 													<div class="service-block-inner box-shadow-block">
-														<a class="service-icon" href="#" ><i class="icon-clipboard"></i></a>
+														<a class="service-icon" href="<?php echo base_url("welcome/prestasi") ?>" ><i class="icon-clipboard"></i></a>
 														<div class="service-block-inner-content">
 															<h3 class="service-item-title"><a href="#" >Prestasi</a>  </h3>
 															<div class="service-block-item-excerpt">
 																<p>Kopi jamur sebenarnya sudah sejak lama digunakan dalam pengobatan tradisional China. Bubuk ekstrak jamur yang kemudian dicampur dengan kopi instan organik ternyata efektif untuk mencegah diabetes dan mengurangi risiko kanker ....</p>
-																<a href="#" class="more-link">Know More</a>
+																<a href="<?php echo base_url("welcome/prestasi") ?>" class="more-link">Know More</a>
 															</div><!-- .service-block-item-excerpt -->
 														</div><!-- .service-block-inner-content -->
 													</div> <!-- .service-block-inner -->
@@ -92,7 +92,7 @@
 																<div class="latest-posts-summary">
 																	<p>Enak Tenan Boss</p>
 																</div>
-																<a href="#" class="more-link">Know More</a>
+																<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
 
 															</div> <!-- .latest-posts-text-content -->
 														</div> <!-- .latest-posts-text-content-wrapper -->
@@ -116,7 +116,7 @@
 																<div class="latest-posts-summary">
 																	<p>Wenak Tenan Boss</p>
 																</div>
-																<a href="#" class="more-link">Know More</a>
+																<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
 
 															</div> <!-- .latest-posts-text-content -->
 														</div>
@@ -139,14 +139,14 @@
 																<div class="latest-posts-summary">
 																	<p>Wenak Tenan Boss</p>
 																</div> <!-- .latest-posts-summary -->
-																<a href="#" class="more-link">Know More</a>
+																<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
 
 															</div> <!-- .latest-posts-text-content -->
 														</div> <!-- .latest-posts-text-content-wrapper -->
 													</div> <!-- .latest-posts-wrapper -->
 												</div> <!-- .latest-posts-item  -->
 												<div class="more-wrapper">
-													<a href="#" class="custom-button">Explore More</a>
+													<a href="<?php echo base_url("welcome/forum") ?>" class="custom-button">Explore More</a>
 												</div> <!-- .more-wrapper -->
 
 								<aside class="section section-teams">
@@ -170,7 +170,6 @@
 															<ul>
 																<li><a href="http://facebook.com/" target="_blank">Facebook</a></li>
 																<li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
-																<li><a href="http://linkedin.com/" target="_blank">Linkedin</a></li>
 																<li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
 															</ul>
 														</div><!-- .social-links -->
@@ -189,7 +188,6 @@
 															<ul>
 																<li><a href="http://facebook.com/" target="_blank">Facebook</a></li>
 																<li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
-																<li><a href="http://linkedin.com/" target="_blank">Linkedin</a></li>
 																<li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
 															</ul>
 														</div><!-- .social-links -->
@@ -208,7 +206,6 @@
 															<ul>
 																<li><a href="http://facebook.com/" target="_blank">Facebook</a></li>
 																<li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
-																<li><a href="http://linkedin.com/" target="_blank">Linkedin</a></li>
 																<li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
 															</ul>
 														</div><!-- .social-links -->
@@ -227,15 +224,12 @@
 															<ul>
 																<li><a href="http://facebook.com/" target="_blank">Facebook</a></li>
 																<li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
-																<li><a href="http://linkedin.com/" target="_blank">Linkedin</a></li>
 																<li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
 															</ul>
 														</div><!-- .social-links -->
 													</div> <!-- .team-item -->
 												</div> <!-- .team-item  -->
-												<div class="more-wrapper">
-													<a href="#" class="custom-button">Explore More</a>
-												</div>
+
 											</div> <!-- .inner-wrapper -->
 										</div> <!-- .teams-section -->
 									</div> <!-- .container -->

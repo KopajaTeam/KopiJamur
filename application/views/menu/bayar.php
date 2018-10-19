@@ -14,12 +14,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div id="page" class="site">
 			<!-- Mobile main menu -->
 			<a href="#" id="mobile-trigger"><i class="fa fa-list" aria-hidden="true"></i></a>
-			
-<?php $this->load->view('dsuser/kontends')?>
-
+<?php $this->load->view('user/header') ?>
 <?php $this->load->view('user/mainnav') ?>	
-
-
 <?php $this->load->view('detail/headdet') ?>
 
 
