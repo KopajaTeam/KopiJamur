@@ -42,6 +42,7 @@ class Welcome extends CI_Controller {
 		}
 		function contact(){
 			$this->load->view('menu/contact');
+<<<<<<< HEAD
 		}
 		function histori(){
 			$this->load->view('user/keyfet/histori');
@@ -51,5 +52,7 @@ class Welcome extends CI_Controller {
 		}
 		function prestasi(){
 			$this->load->view('user/keyfet/prestasi');
+=======
+>>>>>>> 0ed773694ad13fd7a456207c3594b2b714f7ad84
 		}
 }

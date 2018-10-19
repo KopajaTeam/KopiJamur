@@ -1,7 +1,11 @@
 <?php $this->load->view('user/head') ?>
 <?php $this->load->view('user/header') ?>
 <?php $this->load->view('user/mainnav') ?>
+<<<<<<< HEAD
 <?php $this->load->view('user/headnav') ?>
+=======
+<?php $this->load->view('user/slide') ?>
+>>>>>>> 0ed773694ad13fd7a456207c3594b2b714f7ad84
 
 <div id="content" class="site-content global-layout-no-sidebar">
 	<div class="container">
