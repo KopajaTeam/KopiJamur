@@ -37,14 +37,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															<h3 class="team-title"><a href="#">Kopi jamur 1</a></h3>
 															<p class="team-position">cair</p>
 														</div><!-- .team-text-wrap -->
-														<div class="social-links circle">
-															<ul>
-																<li><a href="http://facebook.com/" target="_blank">Facebook</a></li>
-																<li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
-																<li><a href="http://linkedin.com/" target="_blank">Linkedin</a></li>
-																<li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
-															</ul>
-														</div><!-- .social-links -->
+														<!--  -->
+														<a class="custom-button" href="#">BELI PRODUCT</a>
+														<!-- .social-links -->
 													</div> <!-- .team-item -->
 												</div> <!-- .team-item  -->
 												<div class="col-grid-3 team-item">
@@ -56,14 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															<h3 class="team-title"><a href="#">Kopi Jamur 2</a></h3>
 															<p class="team-position">bubuk</p>
 														</div><!-- .team-text-wrap -->
-														<div class="social-links circle">
-															<ul>
-																<li><a href="http://facebook.com/" target="_blank">Facebook</a></li>
-																<li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
-																<li><a href="http://linkedin.com/" target="_blank">Linkedin</a></li>
-																<li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
-															</ul>
-														</div><!-- .social-links -->
+														<a class="custom-button" href="#">BELI PRODUCT</a>
 													</div> <!-- .team-item -->
 												</div> <!-- .team-item  -->
 												<div class="col-grid-3 team-item">
@@ -75,14 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															<h3 class="team-title"><a href="#">Kopi jamur 3</a></h3>
 															<p class="team-position">cair</p>
 														</div><!-- .team-text-wrap -->
-														<div class="social-links circle">
-															<ul>
-																<li><a href="http://facebook.com/" target="_blank">Facebook</a></li>
-																<li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
-																<li><a href="http://linkedin.com/" target="_blank">Linkedin</a></li>
-																<li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
-															</ul>
-														</div><!-- .social-links -->
+														<a class="custom-button" href="#">BELI PRODUCT</a>
 													</div> <!-- .team-item -->
 												</div> <!-- .team-item  -->
 												<div class="col-grid-3 team-item">
@@ -94,14 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															<h3 class="team-title"><a href="#">Kopi Jamur 4</a></h3>
 															<p class="team-position">bubuk</p>
 														</div><!-- .team-text-wrap -->
-														<div class="social-links circle">
-															<ul>
-																<li><a href="http://facebook.com/" target="_blank">Facebook</a></li>
-																<li><a href="http://twitter.com/" target="_blank">Twitter</a></li>
-																<li><a href="http://linkedin.com/" target="_blank">Linkedin</a></li>
-																<li><a href="http://instagram.com/" target="_blank">Instagram</a></li>
-															</ul>
-														</div><!-- .social-links -->
+														<a class="custom-button" href="#">BELI PRODUCT</a>
 													</div> <!-- .team-item -->
 												</div> <!-- .team-item  -->
 												<div class="more-wrapper">
