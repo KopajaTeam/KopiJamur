@@ -17,8 +17,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			
 <?php $this->load->view('user/header') ?>
 <?php $this->load->view('user/mainnav') ?>
+<<<<<<< HEAD
 <?php $this->load->view('user/slide') ?>
 	
+=======
+<?php $this->load->view('user/headnav') ?>	
+>>>>>>> 9ccdbc5e39aa50f2032c7376417320a426aeedd3
 <div id="content" class="site-content default-full-width blog-grid-layout">
 <div class="container">
 	<div class="section-title-wrap" style="text-align: center;">
@@ -45,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 												</div><!-- .entry-meta -->
 												<div class="entry-content">
 													<p>aliquet Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.Proin gravida nibh vel velit auctor aliquet.</p>
-													<a href="single-blog.html" class="custom-button">Read More</a>
+													<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
 												</div><!-- .entry-content -->
 											</div><!-- .entry-content-wrapper -->
 									</article><!-- .post -->

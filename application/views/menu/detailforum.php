@@ -17,13 +17,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			
 <?php $this->load->view('user/header') ?>
 <?php $this->load->view('user/mainnav') ?>
-<?php $this->load->view('user/slide') ?>	
-
 <!-- <div id="content" class="site-content global-layout-right-sidebar"> -->
 				<div class="container">
 					<div class="section-title-wrap" style="text-align: center;">
-					<h2 class="section-title">Detail Forum</h2><span class="divider"></span>
-				</div>
+						<h2 class="section-title">Detail Forum</h2><span class="divider"></span>
+						<p class="section-subtitle"></p></div>	
 					<div class="inner-wrapper">
 						<div id="primary" class="content-area">
 							<main id="main" class="site-main" >

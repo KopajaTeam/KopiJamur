@@ -17,8 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			
 <?php $this->load->view('user/header') ?>
 <?php $this->load->view('user/mainnav') ?>
-
-<?php $this->load->view('user/slide') ?>	
+<?php $this->load->view('user/headnav') ?>	
 
 							<aside class="section section-testimonial dark-background">
 									<div class="container">

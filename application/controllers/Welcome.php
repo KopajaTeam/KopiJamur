@@ -40,7 +40,19 @@ class Welcome extends CI_Controller {
 		function login(){
 			$this->load->view('user/login/login');
 		}
-		function single_thread(){
-			$this->load->view('user/single_thread');
+		function contact(){
+			$this->load->view('menu/contact');
+<<<<<<< HEAD
+		}
+		function histori(){
+			$this->load->view('user/keyfet/histori');
+		}
+		function unggulan(){
+			$this->load->view('user/keyfet/unggulan');
+		}
+		function prestasi(){
+			$this->load->view('user/keyfet/prestasi');
+=======
+>>>>>>> 0ed773694ad13fd7a456207c3594b2b714f7ad84
 		}
 }
