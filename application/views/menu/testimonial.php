@@ -23,8 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<div class="container">
 										<br>
 										<div class="section-title-wrap" style="text-align: center;">
-											<h2 class="section-title">Testimonial</h2><span class="divider"></span>
-											<p class="section-subtitle">hasil testimonial pelanggan</p>
+											<p class="section-subtitle"><strong>Hasil Testimonial Pelanggan</strong></p>
 										</div> <!-- .section-title-wrap -->
 										<div class="testimonial-carousel-wrapper iteam-col-3 section-carousel-enabled">
 											<div class="testimonial-item col-grid-6">

@@ -20,10 +20,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <?php $this->load->view('user/headnav') ?>	
 			<div id="content" class="site-content global-layout-no-sidebar">
 				<div class="container">
-					<div class="section-title-wrap" style="text-align: center;">
-					<h2 class="section-title">Profil Ownner</h2><span class="divider"></span>
-					<!-- <p class="section-subtitle"></p> -->
-					</div> <!-- .section-title-wrap -->
 					<div class="inner-wrapper">
 						<div id="primary" class="content-area">
 							<main id="main" class="site-main" >
@@ -31,18 +27,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<div class="container">
 										<div class="inner-wrapper">
 											<div class="col-grid-6">
-												<img src="<?php echo base_url('assets/images')?>/portfolio/single-portfolio.jpg">
+												<img style="width: 1000px; height: 350px " src="<?php echo base_url('assets/images')?>/portfolio/single-portfolio.jpg">
 											</div>
 											<div class="col-grid-6">
-											 <h3>M. Zinudin</h3>
-											 <p>Kopi Jamur Prestasi adalah sautu produk yang sagat...... Berikut profil singkat saya. M zainudin sebaagai owner Kopi Jamur Prestasi.</p>
+											 <h3>M. Zainudin</h3>
+											 <p>Berikut profil singkat saya. M zainudin sebaagai owner Kopi Jamur Prestasi.</p>
 											 <div class="portfolio-info">
 												 <ul class="list-check">
-												 	 <li><strong><i>Pendidikan Terakhir Di</i></strong> <span>POLITEKNIK NEGERI JEMBER</span></li>
-													<li><strong><i>Jurusan</i></strong> <span>Pertanian</span></li>
-													<li><strong><i>Prodi </i></strong><span>D3 Manajemen Hasil Pertanian</span></li>
-													<!-- <li><strong><i>Skills </i></strong><span>HTML5 / PHP / CSS3</span></li> -->
-													<li><strong><i>Jabatan Dalam Perusahaan</i></strong><span>Owner Kopi Jamur Prestasi</span> </li>
+												 	 <li><strong><i>Pendidikan Terakhir Di</i></strong>: <span>POLITEKNIK NEGERI JEMBER</span></li> <br>
+													<li><strong><i>Jurusan</i></strong>: <span>Pertanian</span></li><br>
+													<li><strong><i>Prodi </i></strong>: <span>D3 Manajemen Hasil Pertanian</span></li> <br>
+													<li><strong><i>Jabatan Dalam Perusahaan</i></strong> : <span>Owner Kopi Jamur Prestasi</span> </li>
 												 </ul>
 											 </div>
 											 <br>
