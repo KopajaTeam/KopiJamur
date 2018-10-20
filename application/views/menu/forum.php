@@ -24,10 +24,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div id="content" class="site-content default-full-width blog-grid-layout">
 <div class="container">
-	<div class="section-title-wrap" style="text-align: center;">
-											<h2 class="section-title">Forum</h2><span class="divider"></span>
-											<p class="section-subtitle">Berita terbaru hari ini</p>
-										</div> <!-- .section-title-wrap -->
 					<div class="inner-wrapper">
 						<div id="primary" class="content-area">
 							<main id="main" class="site-main">
