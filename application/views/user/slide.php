@@ -1,8 +1,8 @@
-	<aside class="section section-featured-slider">
-									<div id="main-slider"  class="cycle-slideshow overlay-enabled featrued-slider" data-cycle-fx="fadeout"  data-cycle-speed="1000"  data-cycle-pause-on-hover="true"  data-cycle-loader="true"  data-cycle-log="false"  data-cycle-swipe="true" data-cycle-auto-height="container"  data-cycle-timeout="3000"  data-cycle-slides="article" data-pager-template='<span class="pager-box"></span>'>
-										<!-- prev/next links -->
-										<div class="cycle-prev"><i class="fas fa-angle-left" aria-hidden="true"></i></div>
-										<div class="cycle-next"><i class="fas fa-angle-right" aria-hidden="true"></i></div>
+			<aside class="section section-featured-slider">
+				<div id="main-slider"  class="cycle-slideshow overlay-enabled featrued-slider" data-cycle-fx="fadeout"  data-cycle-speed="1000"  data-cycle-pause-on-hover="true"  data-cycle-loader="true"  data-cycle-log="false"  data-cycle-swipe="true" data-cycle-auto-height="container"  data-cycle-timeout="3000"  data-cycle-slides="article" data-pager-template='<span class="pager-box"></span>'>
+					<!-- prev/next links -->
+							<div class="cycle-prev"><i class="fas fa-angle-left" aria-hidden="true"></i></div>
+									<div class="cycle-next"><i class="fas fa-angle-right" aria-hidden="true"></i></div>
 										<!-- pager -->
 										<div class="cycle-pager"> </div>
 										<article class="first">
