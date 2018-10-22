@@ -22,11 +22,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 			<div id="content" class="site-content default-full-width">
 				<div class="container">
-					<br>
-					<div class="section-title-wrap" style="text-align: center;">
-					<h2 class="section-title">About Us</h2><span class="divider"></span>
-					<!-- <p class="section-subtitle"></p> -->
-					</div> <!-- .section-title-wrap -->
 					<div class="inner-wrapper">
 						<div id="primary" class="content-area">
 							<main id="main" class="site-main">
