@@ -1,17 +1,14 @@
 <?php
-/**
- *
- */
-class Forum extends CI_Controller
-{
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-  public function index(){
-    $this->load->view('admin/Forum/v_forum');
-  }
+class Forum extends CI_Controller {
 
-  function tambah_forum(){
-    $this->load->view('admin/Forum/v_tambahdata_forum');
-  }
+
+	public function index(){
+		$this->load->view('menu/forum');
+	}
+	function Detail_forum(){
+		$this->load->view('menu/detailforum');
+	}
+
 }
-
- ?>

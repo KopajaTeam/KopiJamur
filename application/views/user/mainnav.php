@@ -2,24 +2,24 @@
 	<div class="container" style="background-color: #975425">
 		<nav class="main-navigation">
 			<ul>
-				<li class="<?php if($this->uri->segment(1) == "welcome" and $this->uri->segment(2) ==""){echo "current-menu-item";}?> menu-item""><a href="<?php echo base_url("welcome") ?>">Home</a>
+				<li class="<?php if($this->uri->segment(1) == "KopiJamur" and $this->uri->segment(2) ==""){echo "current-menu-item";}?> menu-item""><a href="<?php echo base_url("") ?>">Home</a>
 				</li>
-				<li class=" <?php if($this->uri->segment(2) == "about" ){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/about") ?>">About Us</a>
+				<li class=" <?php if($this->uri->segment(2) == "About_us" ){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("About_us") ?>">About Us</a>
 				</li>
-				<li class=" <?php if($this->uri->segment(2) == "produk"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/produk") ?>">Product</a> </li>
-				<li class=" <?php if($this->uri->segment(2) == "testi"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/testi") ?>">Testimonial</a></li>
+				<li class=" <?php if($this->uri->segment(2) == "Produk"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("Produk") ?>">Product</a> </li>
+				<li class=" <?php if($this->uri->segment(2) == "Testimonial"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("Testimonial") ?>">Testimonial</a></li>
 
-				<li class=" <?php if($this->uri->segment(2) == "contact"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/contact") ?>" >Contact</a>
+				<li class=" <?php if($this->uri->segment(2) == "Contact"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("Kontak") ?>" >Contact</a>
 
 				<!-- <li class=" <?php //if($this->uri->segment(2) == "contact"){echo "current-menu-item";}?> menu-item"><a href="#" >Contact</a> -->
 
-				<li class=" <?php if($this->uri->segment(2) == "forum"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/forum") ?>">Forum</a></li>	
+				<li class=" <?php if($this->uri->segment(2) == "Forum"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("Forum") ?>">Forum</a></li>	
 				</li>
-				<li class=" <?php if($this->uri->segment(2) == "gambar"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("welcome/gambar")?>">Galery</a></li>
+				<li class=" <?php if($this->uri->segment(2) == "Galery"){echo "current-menu-item";}?> menu-item"><a href="<?php echo base_url("Gallery")?>">Galery</a></li>
 			</ul>
 		</nav> <!-- .site-navigation -->
 		<div id="troli">
-			<a href="<?php echo base_url("welcome/bayar") ?>"><i class="fa fa-shopping-cart" style="color: #fff"></i> <span class="badge badge-light">0</span></a>
+			<a href="<?php echo base_url("KopiJamur/bayar") ?>"><i class="fa fa-shopping-cart" style="color: #fff"></i> <span class="badge badge-light">0</span></a>
 		</div>
 		<div id="header-search" style="margin-right: 1%;">
 			<a href="#" class="search-icon"><i class="fa fa-search"></i></a>

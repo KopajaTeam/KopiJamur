@@ -1,17 +1,11 @@
 <?php
-/**
- *
- */
-class Produk extends CI_Controller
-{
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-  public function index(){
-    $this->load->view('admin/Produk/v_produk');
-  }
+class Produk extends CI_Controller {
 
-  function tambah_produk(){
-    $this->load->view('admin/Produk/v_tambahdata_produk');
-  }
+
+	public function index(){
+		$this->load->view('menu/product');
+	}
+
 }
-
- ?>

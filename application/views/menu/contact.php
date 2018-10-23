@@ -13,9 +13,6 @@
 				<main id="main" class="site-main" >
 					<aside class="section section-testimonial lite-background">
 						<div class="container">
-							<div class="section-title-wrap">
-								<h2 class="section-title">Contact Person</h2><span class="divider"></span>
-							</div>
 							<div class="testimonial-carousel-wrapper">
 								<div class="testimonial-item col-grid-6">
 									<div class="testimonial-wrapper">

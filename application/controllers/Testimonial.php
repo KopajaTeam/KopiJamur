@@ -1,17 +1,11 @@
 <?php
-/**
- *
- */
-class Testimonial extends CI_Controller
-{
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-  public function index(){
-    $this->load->view('admin/Testimonial/v_testimonial');
-  }
+class Testimonial extends CI_Controller {
 
-  // function tambah_testimonial(){
-  //   $this->load->view('admin/Testimonial/v_tambahdata_testimonial');
-  // }
+
+	public function index(){
+		$this->load->view('menu/testimonial');
+	}
+
 }
-
- ?>

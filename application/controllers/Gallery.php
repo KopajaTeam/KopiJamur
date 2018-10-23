@@ -1,17 +1,11 @@
 <?php
-/**
- *
- */
-class Gallery extends CI_Controller
-{
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-  public function index(){
-    $this->load->view('admin/Gallery/v_gallery');
-  }
+class Gallery extends CI_Controller {
 
-  function tambah_gallery(){
-    $this->load->view('admin/Gallery/v_tambahdata_gallery');
-  }
+
+	public function index(){
+		$this->load->view('menu/galery');
+	}
+
 }
-
- ?>

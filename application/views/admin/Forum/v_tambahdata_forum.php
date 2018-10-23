@@ -45,6 +45,7 @@
 						  <span class="custom-file-control btn btn-success">Pilih Gambar</span>
 						</label>
 					</div>
+					
 				</div>
 			</div>
 		</form>
