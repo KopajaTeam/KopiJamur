@@ -13,36 +13,60 @@
 								<div class="inner-wrapper">
 									<div class="col-grid-4 service-block-item">
 										<div class="service-block-inner box-shadow-block">
+<<<<<<< HEAD
 											<a class="service-icon" href="<?php echo base_url("Histori") ?>" ><i class="icon-tools"></i></a>
+=======
+											<a class="service-icon" href="<?php echo base_url("welcome/histori") ?>" ><i class="icon-tools"></i></a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 											<div class="service-block-inner-content">
 												<h3 class="service-item-title"><a href="#" >Sejarah Perusahaan</a></h3>
 												<div class="service-block-item-excerpt">
 													<p>Kopi jamur sebenarnya sudah sejak lama digunakan dalam pengobatan tradisional China. Bubuk ekstrak jamur yang kemudian dicampur dengan kopi instan organik ternyata efektif untuk mencegah diabetes dan mengurangi risiko kanker ....</p>
+<<<<<<< HEAD
 													<a href="<?php echo base_url("Histori") ?>" class="more-link">Know More</a>
+=======
+													<a href="<?php echo base_url("welcome/histori") ?>" class="more-link">Know More</a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 												</div><!-- .service-block-item-excerpt -->
 											</div><!-- .service-block-inner-content -->
 										</div> <!-- .service-block-inner -->
 									</div> <!-- .service-block-item -->
 									<div class="col-grid-4 service-block-item">
 										<div class="service-block-inner box-shadow-block">
+<<<<<<< HEAD
 											<a class="service-icon" href="<?php echo base_url("Unggulan") ?>" ><i class="icon-mobile"></i></a>
+=======
+											<a class="service-icon" href="<?php echo base_url("welcome/unggulan") ?>" ><i class="icon-mobile"></i></a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 											<div class="service-block-inner-content">
 												<h3 class="service-item-title"><a href="#" >Produk Unggulan</a>  </h3>
 												<div class="service-block-item-excerpt">
 													<p>Kopi jamur sebenarnya sudah sejak lama digunakan dalam pengobatan tradisional China. Bubuk ekstrak jamur yang kemudian dicampur dengan kopi instan organik ternyata efektif untuk mencegah diabetes dan mengurangi risiko kanker ....</p>
+<<<<<<< HEAD
 													<a href="<?php echo base_url("Unggulan") ?>" class="more-link">Know More</a>
+=======
+													<a href="<?php echo base_url("welcome/unggulan") ?>" class="more-link">Know More</a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 												</div><!-- .service-block-item-excerpt -->
 											</div><!-- .service-block-inner-content -->
 										</div> <!-- .service-block-inner -->
 									</div> <!-- .service-block-item -->
 									<div class="col-grid-4 service-block-item">
 										<div class="service-block-inner box-shadow-block">
+<<<<<<< HEAD
 											<a class="service-icon" href="<?php echo base_url("Prestasi") ?>" ><i class="icon-clipboard"></i></a>
+=======
+											<a class="service-icon" href="<?php echo base_url("welcome/prestasi") ?>" ><i class="icon-clipboard"></i></a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 											<div class="service-block-inner-content">
 												<h3 class="service-item-title"><a href="#" >Prestasi</a>  </h3>
 												<div class="service-block-item-excerpt">
 													<p>Kopi jamur sebenarnya sudah sejak lama digunakan dalam pengobatan tradisional China. Bubuk ekstrak jamur yang kemudian dicampur dengan kopi instan organik ternyata efektif untuk mencegah diabetes dan mengurangi risiko kanker ....</p>
+<<<<<<< HEAD
 													<a href="<?php echo base_url("Prestasi") ?>" class="more-link">Know More</a>
+=======
+													<a href="<?php echo base_url("welcome/prestasi") ?>" class="more-link">Know More</a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 												</div><!-- .service-block-item-excerpt -->
 											</div><!-- .service-block-inner-content -->
 										</div> <!-- .service-block-inner -->
@@ -100,7 +124,11 @@
 															<div class="latest-posts-summary">
 																<p>Enak Tenan Boss</p>
 															</div>
+<<<<<<< HEAD
 															<a href="<?php echo base_url('Forum/Detail_forum')?>" class="custom-button">Read More</a>
+=======
+															<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 
 														</div> <!-- .latest-posts-text-content -->
 													</div> <!-- .latest-posts-text-content-wrapper -->
@@ -124,7 +152,11 @@
 															<div class="latest-posts-summary">
 																<p>Wenak Tenan Boss</p>
 															</div>
+<<<<<<< HEAD
 															<a href="<?php echo base_url('Forum/Detail_forum')?>" class="custom-button">Read More</a>
+=======
+															<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 
 														</div> <!-- .latest-posts-text-content -->
 													</div>
@@ -147,13 +179,21 @@
 															<div class="latest-posts-summary">
 																<p>Wenak Tenan Boss</p>
 															</div> <!-- .latest-posts-summary -->
+<<<<<<< HEAD
 															<a href="<?php echo base_url('Forum/Detail_forum')?>" class="custom-button">Read More</a>
+=======
+															<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 														</div> <!-- .latest-posts-text-content -->
 													</div> <!-- .latest-posts-text-content-wrapper -->
 												</div> <!-- .latest-posts-wrapper -->
 											</div> <!-- .latest-posts-item  -->
 											<div class="more-wrapper">
+<<<<<<< HEAD
 												<a href="<?php echo base_url("Forum") ?>" class="custom-button">Explore More</a>
+=======
+												<a href="<?php echo base_url("welcome/forum") ?>" class="custom-button">Explore More</a>
+>>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
 											</div>
 										</div>
 										<hr style="	border: 0; height: 1px;
