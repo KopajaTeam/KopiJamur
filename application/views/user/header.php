@@ -28,12 +28,12 @@
 								</div>
 							</li>
 							<li class="open-time">
-								<div class="header-box-icon">
-									<i class="icon-clock"></i>
+								<div class="header-box-icon thumbnail img-circle">
+									<img style="height: 40px; width: 40px; border-radius: 50%;" src="<?php echo base_url(); ?>master/admin/img/image_placeholder.jpg">
 								</div>
 								<div class="header-box-info">
-									<strong>Opening Hour</strong>
-									24 Hours
+									<strong>Welcome,</strong>
+									<a href="#">User Panji</a>
 								</div>
 							</li>
 						</ul>

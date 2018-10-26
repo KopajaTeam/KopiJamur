@@ -10,11 +10,11 @@
             <div class="card-icon">
               <i class="material-icons">photo_library</i>
             </div>
-            <h4 class="card-title">Data Gallery</h4>
+            <h4 class="card-title">Data Produk Unggulan</h4>
           </div>
           <div class="card-body">
             <div class="toolbar">
-              <a href="<?php echo base_url('admin/Gallery/tambah_gallery') ?>" class="btn btn-success">Tambah</a>
+              <a href="<?php echo base_url('admin/Unggulan/tambah_unggulan') ?>" class="btn btn-success">Tambah</a>
             </div>
             <div class="material-datatables">
 

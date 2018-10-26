@@ -14,7 +14,7 @@
           </div>
           <div class="card-body">
             <div class="toolbar">
-              <a href="<?php echo base_url('Forum/tambah_forum') ?>" class="btn btn-success">Tambah</a>
+              <a href="<?php echo base_url('admin/Forum/tambah_forum') ?>" class="btn btn-success">Tambah</a>
             </div>
             <div class="material-datatables">
 

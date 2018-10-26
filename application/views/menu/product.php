@@ -21,10 +21,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	
 								<aside class="section section-teams">
-									<div class="container">
+									<div class="container"> <br>
 										<div class="section-title-wrap" style="text-align: center;">
-											<h2 class="section-title">Our Product</h2><span class="divider"></span>
-											<p class="section-subtitle">produk produk kami</p>
+											<p class="section-subtitle"><strong>Berikut Produk Produk Kami</strong></p>
 										</div> <!-- .section-title-wrap -->
 										<div class="teams-section">
 											<div class="inner-wrapper">
