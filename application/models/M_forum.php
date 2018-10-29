@@ -10,7 +10,6 @@ class M_forum extends CI_Model
     {
         parent::__construct();
     }
-
        // insert data
     function insert($data)
     {
@@ -18,14 +17,14 @@ class M_forum extends CI_Model
     }
 
     // update data
-    function update($kd, $data)
+    function update( $data)
     {
 		$this->db->update($this->table, $data);
         //$this->db->update($this->table, $data);
     }
 
     // delete data
-    function delete($kd)
+    function delete($data)
     {
          $this->db->delete($this->table, $data);
        // $this->db->delete($this->table);
