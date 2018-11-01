@@ -11,93 +11,33 @@
 							</div>
 							<div class="service-block-list">
 								<div class="inner-wrapper">
-<<<<<<< HEAD
 									<div class="col-grid-6 service-block-item">
 										<div class="service-block-inner box-shadow-block">
 											<a class="service-icon" href="<?php echo base_url("Unggulan") ?>" ><i class="icon-mobile"></i></a>
-=======
-									<div class="col-grid-4 service-block-item">
-										<div class="service-block-inner box-shadow-block">
-<<<<<<< HEAD
-											<a class="service-icon" href="<?php echo base_url("Histori") ?>" ><i class="icon-tools"></i></a>
-=======
-											<a class="service-icon" href="<?php echo base_url("welcome/histori") ?>" ><i class="icon-tools"></i></a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
-											<div class="service-block-inner-content">
-												<h3 class="service-item-title"><a href="#" >Sejarah Perusahaan</a></h3>
-												<div class="service-block-item-excerpt">
-													<p>Kopi jamur sebenarnya sudah sejak lama digunakan dalam pengobatan tradisional China. Bubuk ekstrak jamur yang kemudian dicampur dengan kopi instan organik ternyata efektif untuk mencegah diabetes dan mengurangi risiko kanker ....</p>
-<<<<<<< HEAD
-													<a href="<?php echo base_url("Histori") ?>" class="more-link">Know More</a>
-=======
-													<a href="<?php echo base_url("welcome/histori") ?>" class="more-link">Know More</a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
-												</div><!-- .service-block-item-excerpt -->
-											</div><!-- .service-block-inner-content -->
-										</div> <!-- .service-block-inner -->
-									</div> <!-- .service-block-item -->
-									<div class="col-grid-4 service-block-item">
-										<div class="service-block-inner box-shadow-block">
-<<<<<<< HEAD
-											<a class="service-icon" href="<?php echo base_url("Unggulan") ?>" ><i class="icon-mobile"></i></a>
-=======
-											<a class="service-icon" href="<?php echo base_url("welcome/unggulan") ?>" ><i class="icon-mobile"></i></a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
->>>>>>> 360c0a78566de18b1b367b5dcd69f7183b2eb2c0
 											<div class="service-block-inner-content">
 												<h3 class="service-item-title"><a href="#" >Produk Unggulan</a>  </h3>
 												<div class="service-block-item-excerpt">
 													<p>Kopi jamur sebenarnya sudah sejak lama digunakan dalam pengobatan tradisional China. Bubuk ekstrak jamur yang kemudian dicampur dengan kopi instan organik ternyata efektif untuk mencegah diabetes dan mengurangi risiko kanker ....</p>
-<<<<<<< HEAD
 													<a href="<?php echo base_url("Unggulan") ?>" class="more-link">Know More</a>
-=======
-<<<<<<< HEAD
-													<a href="<?php echo base_url("Unggulan") ?>" class="more-link">Know More</a>
-=======
-													<a href="<?php echo base_url("welcome/unggulan") ?>" class="more-link">Know More</a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
->>>>>>> 360c0a78566de18b1b367b5dcd69f7183b2eb2c0
 												</div><!-- .service-block-item-excerpt -->
 											</div><!-- .service-block-inner-content -->
 										</div> <!-- .service-block-inner -->
 									</div> <!-- .service-block-item -->
-<<<<<<< HEAD
 									<div class="col-grid-6 service-block-item">
 										<div class="service-block-inner box-shadow-block">
 											<a class="service-icon" href="<?php echo base_url("Prestasi") ?>" ><i class="icon-clipboard"></i></a>
-=======
-									<div class="col-grid-4 service-block-item">
-										<div class="service-block-inner box-shadow-block">
-<<<<<<< HEAD
-											<a class="service-icon" href="<?php echo base_url("Prestasi") ?>" ><i class="icon-clipboard"></i></a>
-=======
-											<a class="service-icon" href="<?php echo base_url("welcome/prestasi") ?>" ><i class="icon-clipboard"></i></a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
->>>>>>> 360c0a78566de18b1b367b5dcd69f7183b2eb2c0
 											<div class="service-block-inner-content">
 												<h3 class="service-item-title"><a href="#" >Prestasi</a>  </h3>
 												<div class="service-block-item-excerpt">
 													<p>Kopi jamur sebenarnya sudah sejak lama digunakan dalam pengobatan tradisional China. Bubuk ekstrak jamur yang kemudian dicampur dengan kopi instan organik ternyata efektif untuk mencegah diabetes dan mengurangi risiko kanker ....</p>
-<<<<<<< HEAD
 													<a href="<?php echo base_url("Prestasi") ?>" class="more-link">Know More</a>
-=======
-<<<<<<< HEAD
-													<a href="<?php echo base_url("Prestasi") ?>" class="more-link">Know More</a>
-=======
-													<a href="<?php echo base_url("welcome/prestasi") ?>" class="more-link">Know More</a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
->>>>>>> 360c0a78566de18b1b367b5dcd69f7183b2eb2c0
 												</div><!-- .service-block-item-excerpt -->
 											</div><!-- .service-block-inner-content -->
 										</div> <!-- .service-block-inner -->
 									</div> <!-- .service-block-item -->
 								</div>
 							</div>
-							<hr style="	border: 0; height: 1px;
-							background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-							background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-							background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-							background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));">
+							<hr class="stylehr">
 							<aside  class="section section-featured-page" style="margin-bottom: -110px">
 								<div class="container" style="margin-top: -100px">
 									<img class="alignleft" alt="About Us" src="<?php echo base_url('assets/images/featured-page')?>/kopijamurside.jpg">
@@ -115,11 +55,7 @@
 									</div><!-- .featured-page-section -->
 								</div> <!-- .container -->
 							</aside> <!-- .section-featured-page -->
-							<hr style="	border: 0; height: 1px;
-							background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-							background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-							background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-							background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));">
+							<hr class="stylehr">
 							<aside class="section section-latest-posts" style="margin-top: -100px; margin-bottom: -200px">
 								<div class="container">
 									<div class="latest-posts-section">
@@ -144,15 +80,7 @@
 															<div class="latest-posts-summary">
 																<p>Enak Tenan Boss</p>
 															</div>
-<<<<<<< HEAD
 															<a href="<?php echo base_url('Forum/Detail_forum')?>" class="custom-button">Read More</a>
-=======
-<<<<<<< HEAD
-															<a href="<?php echo base_url('Forum/Detail_forum')?>" class="custom-button">Read More</a>
-=======
-															<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
->>>>>>> 360c0a78566de18b1b367b5dcd69f7183b2eb2c0
 
 														</div> <!-- .latest-posts-text-content -->
 													</div> <!-- .latest-posts-text-content-wrapper -->
@@ -176,15 +104,7 @@
 															<div class="latest-posts-summary">
 																<p>Wenak Tenan Boss</p>
 															</div>
-<<<<<<< HEAD
 															<a href="<?php echo base_url('Forum/Detail_forum')?>" class="custom-button">Read More</a>
-=======
-<<<<<<< HEAD
-															<a href="<?php echo base_url('Forum/Detail_forum')?>" class="custom-button">Read More</a>
-=======
-															<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
->>>>>>> 360c0a78566de18b1b367b5dcd69f7183b2eb2c0
 
 														</div> <!-- .latest-posts-text-content -->
 													</div>
@@ -207,36 +127,16 @@
 															<div class="latest-posts-summary">
 																<p>Wenak Tenan Boss</p>
 															</div> <!-- .latest-posts-summary -->
-<<<<<<< HEAD
 															<a href="<?php echo base_url('Forum/Detail_forum')?>" class="custom-button">Read More</a>
-=======
-<<<<<<< HEAD
-															<a href="<?php echo base_url('Forum/Detail_forum')?>" class="custom-button">Read More</a>
-=======
-															<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
->>>>>>> 360c0a78566de18b1b367b5dcd69f7183b2eb2c0
 														</div> <!-- .latest-posts-text-content -->
 													</div> <!-- .latest-posts-text-content-wrapper -->
 												</div> <!-- .latest-posts-wrapper -->
 											</div> <!-- .latest-posts-item  -->
 											<div class="more-wrapper">
-<<<<<<< HEAD
 												<a href="<?php echo base_url("Forum") ?>" class="custom-button">Explore More</a>
-=======
-<<<<<<< HEAD
-												<a href="<?php echo base_url("Forum") ?>" class="custom-button">Explore More</a>
-=======
-												<a href="<?php echo base_url("welcome/forum") ?>" class="custom-button">Explore More</a>
->>>>>>> 9dd2ca89bf3ea6a1e1e9ac1575f5d9a1ef05713f
->>>>>>> 360c0a78566de18b1b367b5dcd69f7183b2eb2c0
 											</div>
 										</div>
-										<hr style="	border: 0; height: 1px;
-										background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-										background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-										background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-										background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));">
+										<hr class="stylehr">
 									</div>
 								</div>
 							</aside>
@@ -321,11 +221,7 @@
 											</div> <!-- .team-item  -->
 										</div> <!-- .inner-wrapper -->
 									</div> <!-- .teams-section -->
-									<hr style="	border: 0; height: 1px;
-									background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-									background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-									background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-									background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));">
+									<hr class="stylehr">
 								</div> <!-- .container -->
 							</aside> <!-- .section section-teams -->
 							<aside class="section section-testimonial white-background" style="margin-top: -200px; margin-bottom: -120px">
@@ -413,13 +309,7 @@
 									</div> <!-- .testimonial-carousel-wrapper -->
 								</div><!-- .container -->
 							</aside> <!-- .section section-testimonial-carousel -->
-							<hr style="	border: 0; height: 1px;
-							background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-							background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-							background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-							background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));">
-
-
+							<hr class="stylehr">
 							<aside  class="section section-Quick-contact lite-background" style="margin-top: -60px">
 								<div class="container">
 									<div class="inner-wrapper">

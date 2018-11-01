@@ -34,27 +34,28 @@
              </div>
              <ul class="nav">
 
-              <li class="nav-item <?php if($this->uri->segment(1)=='Dashboard'){echo 'active';}?> ">
+              <li class="nav-item <?php if($this->uri->segment(2)=='Dashboard'){echo 'active';}?> ">
                 <a class="nav-link" href="<?php echo base_url("/admin/Dashboard"); ?>">
                   <i class="material-icons">dashboard</i>
                   <p> Dashboard </p>
                 </a>
               </li>
 
-              <li class="nav-item <?php if($this->uri->segment(1)=='Forum'){echo 'active';}?> ">
+              <li class="nav-item <?php if($this->uri->segment(2)=='Forum'){echo 'active';}?> ">
                 <a class="nav-link" href="<?php echo base_url("admin/Forum"); ?>">
                   <i class="material-icons">forum</i>
                   <p>Forum</p>
                 </a>
               </li>
 
-              <li class="nav-item <?php if($this->uri->segment(1)=='Gallery'){echo 'active';}?> ">
+              <li class="nav-item <?php if($this->uri->segment(2)=='Gallery'){echo 'active';}?> ">
                 <a class="nav-link" href="<?php echo base_url("admin/Gallery"); ?>">
                   <i class="material-icons">photo_library</i>
                   <p>Gallery</p>
                 </a>
               </li>
-                <li class="nav-item ">
+                <li class="nav-item <?php if($this->uri->segment(2)=='Prestasi' or $this->uri->segment(2)
+               =='Unggulan'){echo 'active';} ?> ">
                 <a class="nav-link" data-toggle="collapse" href="#pagesExamples">
                   <i class="material-icons">build</i>
                   <p> Key Features
@@ -81,7 +82,10 @@
               </ul>
             </div>
           </li>
-              <li class="nav-item ">
+              <li class="nav-item <?php if($this->uri->segment(2)=='User' or $this->uri->segment(2)
+               =='Admin' or $this->uri->segment(2)
+               =='Produk' or $this->uri->segment(2)
+               =='Testimonial'){echo 'active';} ?> ">
                 <a class="nav-link" data-toggle="collapse" href="#mapsExamples">
                   <i class="material-icons">layers</i>
                   <p> Data Master
@@ -122,7 +126,8 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item <?php if($this->uri->segment(2)=='Profile' or $this->uri->segment(2)
+               =='Log-Out'){echo 'active';} ?> ">
             <a class="nav-link" data-toggle="collapse" href="#mapsExample">
               <i class="material-icons">settings</i>
               <p> Settings

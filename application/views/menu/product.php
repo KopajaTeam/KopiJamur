@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															<p class="team-position">cair</p>
 														</div><!-- .team-text-wrap -->
 														<!--  -->
-														<a class="custom-button" href="#">BELI PRODUCT</a>
+														<a class="custom-button" href="Produk/detail_produk">Detail Produk</a>
 														<!-- .social-links -->
 													</div> <!-- .team-item -->
 												</div> <!-- .team-item  -->
@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															<h3 class="team-title"><a href="#">Kopi Jamur 2</a></h3>
 															<p class="team-position">bubuk</p>
 														</div><!-- .team-text-wrap -->
-														<a class="custom-button" href="#">BELI PRODUCT</a>
+														<a class="custom-button" href="#">Detail Produk</a>
 													</div> <!-- .team-item -->
 												</div> <!-- .team-item  -->
 												<div class="col-grid-3 team-item">
@@ -62,7 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															<h3 class="team-title"><a href="#">Kopi jamur 3</a></h3>
 															<p class="team-position">cair</p>
 														</div><!-- .team-text-wrap -->
-														<a class="custom-button" href="#">BELI PRODUCT</a>
+														<a class="custom-button" href="#">Detail Produk</a>
 													</div> <!-- .team-item -->
 												</div> <!-- .team-item  -->
 												<div class="col-grid-3 team-item">
@@ -74,7 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 															<h3 class="team-title"><a href="#">Kopi Jamur 4</a></h3>
 															<p class="team-position">bubuk</p>
 														</div><!-- .team-text-wrap -->
-														<a class="custom-button" href="#">BELI PRODUCT</a>
+														<a class="custom-button" href="#">Detail Produk</a>
 													</div> <!-- .team-item -->
 												</div> <!-- .team-item  -->
 												<div class="more-wrapper">

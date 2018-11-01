@@ -8,4 +8,8 @@ class Produk extends CI_Controller {
 		$this->load->view('menu/product');
 	}
 
+	function detail_produk(){
+		$this->load->view('menu/detailproduk');
+	}
+
 }
