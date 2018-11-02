@@ -23,13 +23,9 @@ class Login_user extends CI_Controller {
 
         $cek = $this->K_jamur->cek_login("user",$where);
         if ($cek > 0) {
-<<<<<<< HEAD
         	$data_user=$this->K_jamur->selectwhere("user", $where)->row();
             $data_session = array(
             	'id_user' => $data_user->id_user,
-=======
-            $data_session = array(
->>>>>>> 240ac347b49130cf97013bc03709dd4b506cf845
                 'nama' => $email,
                 'status' => "login"
             );
@@ -54,12 +50,9 @@ class Login_user extends CI_Controller {
 
     }
 
-<<<<<<< HEAD
     function logout(){
         $this->session->sess_destroy();
         redirect(base_url());
     }
 
-=======
->>>>>>> 240ac347b49130cf97013bc03709dd4b506cf845
 }

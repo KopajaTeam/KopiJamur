@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 												</div><!-- .entry-meta -->
 												<div class="entry-content">
 													<p>aliquet Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.Proin gravida nibh vel velit auctor aliquet.</p>
-													<a href="<?php echo base_url('forum/Detail_forum')?>" class="custom-button">Read More</a>
+													<a href="<?php echo base_url('welcome/detailf')?>" class="custom-button">Read More</a>
 												</div><!-- .entry-content -->
 											</div><!-- .entry-content-wrapper -->
 									</article><!-- .post -->
@@ -87,7 +87,68 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 												<a href="#" class="custom-button">Read More</a>
 											</div><!-- .entry-content -->
 										</div><!-- .entry-content-wrapper -->
-									</article><!-- .post -->	
+									</article><!-- .post -->
+									<article class="hentry post col-grid-4">
+										<div class="entry-content-wrapper box-shadow-block">
+											<div class="entry-thumb aligncenter">
+												<a  href="#" >
+													<img  src="<?php echo base_url('assets/images/blog')?>/blog-4.jpg" alt="Blog">
+												</a>
+											</div> <!-- .entry-thumb -->
+
+											<header class="entry-header">
+												<h2 class="entry-title"><a href="#" rel="bookmark">Beautiful Day With Friends </a></h2>
+											</header><!-- .entry-header -->
+											<div class="entry-meta">
+												<span class="posted-on">June 13, 2017</span>
+												<span class="cat-links"><a href="#" rel="category tag">Business</a></span>
+											</div><!-- .entry-meta -->
+											<div class="entry-content">
+												<p>aliquet Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.Proin gravida nibh vel velit auctor aliquet.</p>
+												<a href="#" class="custom-button">Read More</a>
+											</div><!-- .entry-content -->
+										</div><!-- .entry-content-wrapper -->
+									</article> <!-- .post -->
+									<article class="hentry post col-grid-4">
+										<div class="entry-content-wrapper box-shadow-block">
+											<div class="entry-thumb aligncenter">
+												<a  href="#" >
+													<img  src="<?php echo base_url('assets/images/blog')?>/blog-5.jpg" alt="Blog">
+												</a>
+											</div> <!-- .entry-thumb -->
+											<header class="entry-header">
+												<h2 class="entry-title"><a href="#" rel="bookmark">Friends In Paris Streets</a></h2>
+											</header><!-- .entry-header -->
+											<div class="entry-meta">
+												<span class="posted-on">June 13, 2017</span>
+												<span class="cat-links"><a href="#" rel="category tag">Nature</a></span>
+											</div><!-- .entry-meta -->
+											<div class="entry-content">
+												<p>aliquet Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.Proin gravida nibh vel velit auctor aliquet.</p>
+												<a href="#" class="custom-button">Read More</a>
+											</div><!-- .entry-content -->
+										</div><!-- .entry-content-wrapper -->
+									</article> <!-- .post -->
+									<article class="hentry post col-grid-4">
+										<div class="entry-content-wrapper box-shadow-block">
+											<div class="entry-thumb aligncenter">
+												<a  href="#" >
+													<img  src="<?php echo base_url('assets/images/blog')?>/blog-3.jpg" alt="Blog">
+												</a>
+											</div> <!-- .entry-thumb -->
+											<header class="entry-header">
+												<h2 class="entry-title"><a href="#" rel="bookmark">Website Design & Development</a></h2>
+											</header><!-- .entry-header -->
+											<div class="entry-meta">
+												<span class="posted-on">June 13, 2017</span>
+												<span class="cat-links"><a href="#" rel="category tag">Corporate</a></span>
+											</div><!-- .entry-meta -->
+											<div class="entry-content">
+												<p>aliquet Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.Proin gravida nibh vel velit auctor aliquet.</p>
+												<a href="#" class="custom-button">Read More</a>
+											</div><!-- .entry-content -->
+										</div><!-- .entry-content-wrapper -->
+									</article><!-- .post -->
 								</div> <!-- .inner-wrapper -->
 								<nav class="navigation pagination">
 									<div class="nav-links">
