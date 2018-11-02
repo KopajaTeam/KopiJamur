@@ -8,19 +8,25 @@ class Register_user extends CI_Controller {
 		$this->load->view('user/register/register');
 	}
 	function insert(){
-		$username = $this->input->post('username');
-		$email = $this->input->post('email');
-		$pass = $this->input->post('password');
-		$passmd = md5($pass);
-		$data = array('email' =>$email ,
-						'password'=>$passmd );
-		$insert = $this->K_jamur->insert('user');
-
-		if ($insert >= 0) {
-			echo "Berhasil";
-		}else{
-			echo "gagal";
-		}
-	}
+		$dir = 'assets/images_upload/';
+        $config['upload_path']      = 'assets/images_upload/';
+        $config['allowed_types']    = 'jpg|png|jpeg';
+        $config['max_size']         = '2048';
+            $this->load->library('upload', $config);
+            $this->upload->initialize($config); 
+        if (!$this->upload->do_upload('gambar_user')) {
+            echo $this->upload->display_errors();
+        }else{
+        $data = array(
+            'nama' => $this->input->post('nama_user'),
+            'alamat' => $this->input->post('alamat_user'),
+            'email' => $this->input->post('email_user'),
+            'password' => $this->input->post('password_user'),
+            'foto' => $dir.$this->upload->data('file_name'),
+        );
+        $this->db->insert('user',$data);
+        redirect('Register_user');
+        }
+    }
 
 }

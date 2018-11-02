@@ -1,10 +1,7 @@
 <?php $this->load->view('user/head') ?>
 <?php $this->load->view('user/header') ?>
 <?php $this->load->view('user/mainnav') ?>
-
 <?php $this->load->view('user/headnav') ?>
-
-<!-- <?php //$this->load->view('user/slide') ?> -->
 
 <div id="content" class="site-content global-layout-no-sidebar">
 	<div class="container">

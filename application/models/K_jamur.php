@@ -12,8 +12,8 @@ class K_jamur extends CI_Model
 		$this->db->limit();
 		return $this->db->get($table);
 	}
-	public function selectwhere($table,$data){
-		return $this->db->get_where($table, $data);
+	public function selectwhere($table,$where){
+		return $this->db->get_where($table, $where);
 	}
 	function delete($where,$table){
 		$this->db->where($where);

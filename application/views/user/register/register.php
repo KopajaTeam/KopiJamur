@@ -1,61 +1,121 @@
-<?php $this->load->view('user/head') ?>
+<?php $this->load->view("admin/side/header") ?>
+<?php $this->load->view("admin/side/js") ?>
 
-<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="alert alert-danger" role="alert">
-			</div>
-		</div>
-		<div class="col-md-12">
-			<div class="alert alert-danger" role="alert">
-			</div>
-		</div>
+<script type="text/javascript">
+	if (document.readyState === 'complete') {
+		if (window.location != window.parent.location) {
+			const elements = document.getElementsByClassName("iframe-extern");
+			while (elemnts.lenght > 0) elements[0].remove();
+            // $(".iframe-extern").remove();
+        }
+    };
+</script>
 
-		<form method="post" action=""> 
-			<div class="col-md-12">
-				<div class="page-header">
-					<h1>Register</h1>
-				</div>
-				<div class="form-group">
-					<label for="nama">Nama</label>
-					<input type="text" class="form-control" id="nama" name="nama" placeholder="nama lengkap	">
-					<!-- <p class="help-block">At least 4 characters, letters or numbers only</p> -->
-				</div>
-				<div class="form-group">
-					<label for="nama">Alamat</label>
-					<input type="alamat" class="form-control" id="alamat" name="alamat" placeholder="alamat lengkap	">
-					<!-- <p class="help-block">At least 4 characters, letters or numbers only</p> -->
-				</div>
-				<div class="form-group">
-					<label for="email">Email</label>
-					<input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
-					<!-- <p class="help-block">A valid email address</p> -->
-				</div>
-				<div class="form-group">
-					<label for="password">Password</label>
-					<input type="password" class="form-control" id="password" name="password" placeholder="Enter a password">
-					<!-- <p class="help-block">At least 6 characters</p> -->
-				</div>
-				<div class="form-group">
-					<label for="password_confirm">Confirm password</label>
-					<input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="Confirm your password">
-					<!-- <p class="help-block">Must match your password</p> -->
-				</div>
-				<div class="form-group">
-					<label for="foto">Foto</label>
-	      			<img class="card-img-top img-thumbnail mb-2" style="height: 100px; width: 100px;" src="<?php echo base_url(); ?>master/admin/img/image_placeholder.jpg" id="foto" name="foto">
-				</div>
-					<div class="form-group">
-						<label class="custom-file">
-						  <input type="file" id="file2" name="gambar_foto" accept="image/*"  class="custom-file-input">
-						</label>
+<div class="wrapper wrapper-full-page">
+	<div class="page-header login-page header-filter" filter-color="black" style="background-image: url('<?php echo base_url(); ?>master/admin/img/login.jpg'); background-size: cover; background-position: top center;">
+		<div class="container">
+			<div class="col-md-6 col-sm-8 ml-auto mr-auto">
+				<form class="form" method="post" action="<?php echo base_url('Register_user/insert') ?>" enctype="multipart/form-data">
+					<div class="card card-login card-hidden">
+						<div class="card-header card-header-rose text-center">
+							<h4 class="card-title"><b>Register User</b></h4>
+							<div class="social-line">
+								Kopi Jamur Prestasi
+							</div>
+						</div>
+						<div class="card-body ">
+							<p class="card-description text-center">Sudah punya akun, <a href="<?php echo base_url('Login_user') ?>">Klik disini</a></p>
+							<span class="bmd-form-group">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="material-icons">account_circle</i>
+										</span>
+									</div>
+									<input type="text" name="nama_user" class="form-control" placeholder="Nama Lengkap...">
+								</div>
+							</span>
+							<span class="bmd-form-group">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="material-icons">room</i>
+										</span>
+									</div>
+									<input type="text" name="alamat_user" class="form-control" placeholder="Alamat Lengkap...">
+								</div>
+							</span>
+							<span class="bmd-form-group">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="material-icons">email</i>
+										</span>
+									</div>
+									<input type="email" name="email_user" class="form-control" placeholder="Email...">
+								</div>
+							</span>
+							<span class="bmd-form-group">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="material-icons">lock_outline</i>
+										</span>
+									</div>
+									<input type="password" name="password_user" class="form-control" placeholder="Password...">
+								</div>
+							</span>
+<!-- 							<span class="bmd-form-group">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">
+											<i class="material-icons">lock_outline</i>
+										</span>
+									</div>
+									<input type="password" class="form-control" placeholder="Konfirmasi Password...">
+								</div>
+							</span> -->
+							<span class="bmd-form-group">
+								<div class="input-group" style="margin-top: 30px">
+									<div class="input-group-prepend">
+										<span class="input-group-text" style="margin-top: -85px">
+											<i class="material-icons">contacts</i>
+										</span>
+									</div>
+									<div class="fileinput fileinput-new text-center" data-provides="fileinput">
+										<div class="fileinput-new thumbnail">
+											<img src="<?php echo base_url(); ?>master/admin/img/image_placeholder.jpg" alt="...">
+										</div>
+										<div class="fileinput-preview fileinput-exists thumbnail"></div>
+										<div>
+											<span class="btn btn-rose btn-round btn-file">
+												<span class="fileinput-new">Pilih Foto Profil	</span>
+												<span class="fileinput-exists">Change</span>
+												<input type="file" name="gambar_user" />
+											</span>
+											<a href="#pablo" class="btn btn-danger btn-round fileinput-exists" data-dismiss="fileinput"><i class="fa fa-times"></i> Remove</a>
+										</div>
+									</div>
+								</div>
+							</span>
+						</div>
+						<div class="card-footer justify-content-center">
+							<button type="submit" class="btn btn-rose btn-link btn-lg">Register</button>
+						</div>
 					</div>
-				<div class="form-group">
-					<input type="submit" class="btn btn-default" value="Register">
-				</div>
-			</form>
+				</form>
+			</div>
+		</div>
 	</div>
+</div>
 
-</div><!-- .row -->
-<?php $this->load->view('user/jscript') ?>
+<script type="text/javascript">
+	$().ready(function(){
+		demo.checkFullPageBackgroundImage();
+
+		setTimeout(function(){
+            // after 1000 ms we add the class animated to the login/register card
+            $('.card').removeClass('card-hidden');
+        }, 700)
+	});
+</script>
