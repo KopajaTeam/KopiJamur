@@ -11,11 +11,15 @@
 				<h1 class="site-title"><a href="home-v1.html"  rel="home"><img alt="logo" src="<?php echo base_url('assets/images')?>/test1.png"></a></h1>
 			</div><!-- #site-identity -->
 		</div><!-- .site-branding -->
+<<<<<<< HEAD
 		<?php if ($this->session->userdata('status')!="login") { ?>
 			<a href="<?php echo base_url('Login_user')?>" class="custom-button apply-now" style="background-color: #975425" >LOGIN</a>
 		<?php }else{ ?>
 			<a href="<?php echo base_url('Login_user/logout')?>" class="custom-button apply-now" style="background-color: #975425" >LOGOUT</a>
 		<?php } ?>
+=======
+		<a href="#" class="custom-button apply-now" style="background-color: #975425" >LOGIN</a>
+>>>>>>> 240ac347b49130cf97013bc03709dd4b506cf845
 		<div id="quick-contact">
 			<!-- <a href="#" class="custom-button apply-now" style="background-color: #975425" ><i class="fa fa-shopping-cart"></i></a> -->
 			<ul>
@@ -37,6 +41,7 @@
 						Jember, Jl. Mastrip Timur No.102
 					</div>
 				</li>
+<<<<<<< HEAD
 				<?php if ($this->session->userdata('status')=="login") { ?>
 				<li class="open-time">
 					<div class="header-box-icon thumbnail img-circle">
@@ -48,6 +53,17 @@
 					</div>
 				</li>
 				<?php } ?>
+=======
+				<li class="open-time">
+					<div class="header-box-icon thumbnail img-circle">
+						<img style="height: 40px; width: 40px; border-radius: 50%;" src="<?php echo base_url(); ?>master/admin/img/image_placeholder.jpg">
+					</div>
+					<div class="header-box-info">
+						<strong>Welcome,</strong>
+						<a href="#">User Panji</a>
+					</div>
+				</li>
+>>>>>>> 240ac347b49130cf97013bc03709dd4b506cf845
 			</ul>
 		</div> <!-- .quick-contact -->
 	</div> <!-- .container -->
